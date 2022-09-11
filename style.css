@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Bebas+Neue&family=Convergence&family=Hind:wght@500&family=Markazi+Text:wght@500&family=Readex+Pro:wght@300;400&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Baloo+Bhai+2:wght@500&family=Bebas+Neue&family=Convergence&family=Hind:wght@500&family=Markazi+Text:wght@500&family=Readex+Pro:wght@300;400&family=Righteous&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
-:root{
+
+:root {
     --nav-background-color: white;
 }
 
@@ -25,9 +26,11 @@
     justify-content: center;
     font-family: 'Hind', sans-serif;
 }
+
 #announcement {
     margin-right: 7px;
 }
+
 #announcement-click a {
     color: white;
     text-decoration: none;
@@ -47,16 +50,18 @@
 }
 
 .fa {
-    padding: 17px;
+    padding: 16px;
     font-size: 30px;
     width: 25px;
     text-align: center;
     text-decoration: none;
     margin: 0px 4px;
 }
+
 .fa-facebook {
     color: white;
 }
+
 .fa-facebook:hover {
     background: #3B5998;
     transition: 0.1s;
@@ -65,6 +70,7 @@
 .fa-twitter {
     color: white;
 }
+
 .fa-twitter:hover {
     background: #55ACEE;
     transition: 0.1s;
@@ -73,6 +79,7 @@
 .fa-linkedin {
     color: white;
 }
+
 .fa-linkedin:hover {
     background: #007bb5;
     transition: 0.1s;
@@ -81,78 +88,88 @@
 .fa-pinterest {
     color: white;
 }
+
 .fa-pinterest:hover {
     background: #cb2027;
     transition: 0.1s;
 }
+
 /* Navbar */
-nav{
+nav {
     background-color: var(--nav-background-color);
     width: 100%;
     height: 7vh;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    /* border-top: 1px solid blue; */
-    border-bottom: 1px solid rgb(0,61,121);
+    box-shadow: 2px 0px 8px rgb(134, 134, 134);
+    border-bottom: 1px solid rgb(0, 61, 121);
     position: sticky;
     top: 0;
 }
 
 /* Left side of navbar */
-#left-navbar{
+#left-navbar {
     display: flex;
     align-items: center;
     width: 450px;
     justify-content: space-around;
 }
-#image{
+
+#image {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 7vh;
 }
-#image img{
+
+#image img {
     height: 6.5vh;
 }
-#search{
+
+#search {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 7vh;
 }
-#searchBox{
+
+#searchBox {
     width: 200px;
     box-sizing: border-box;
     border: 1px solid black;
     height: 29px;
     padding: 0px 5px;
 }
-#search button{
+
+#search button {
     height: 29px;
     width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(0,61,121);
+    background-color: rgb(0, 61, 121);
     color: white;
     cursor: pointer;
 }
-#search button:hover{
-    opacity: 0.8;
+
+#search button:hover {
+    opacity: 0.7;
 }
 
 /* Right side of navbar */
-#right-navbar{
+#right-navbar {
     width: 500px;
 }
-#list{
+
+#list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
 }
-.navbar-menu{
+
+.navbar-menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,13 +181,14 @@ nav{
     font-family: 'Readex Pro', sans-serif;
 
 }
-.navbar-menu:hover{
-    border-bottom: 3px solid rgb(253,185,19);
+
+.navbar-menu:hover {
+    border-bottom: 3px solid rgb(253, 185, 19);
     border-top: 3px solid var(--nav-background-color);
 }
 
 /* Mouseover dropdown */
-#course-list{
+#course-list {
     display: none;
     position: absolute;
     right: 250px;
@@ -178,8 +196,10 @@ nav{
     width: 200px;
     box-shadow: 2px 4px 10px grey;
     list-style: none;
+    z-index: 5;
 }
-#course-list a{
+
+#course-list a {
     display: block;
     box-sizing: border-box;
     width: 200px;
@@ -188,29 +208,84 @@ nav{
     padding: 7px;
     color: black;
 }
-#course-list a:hover{
+
+#course-list a:hover {
     background-color: grey;
     color: white;
 }
-#more-options{
+
+#more-options {
     display: none;
     position: absolute;
-    right: 10px;
+    right: 7px;
     top: 7vh;
     width: 100px;
     list-style: none;
     box-shadow: 2px 4px 10px grey;
+    z-index: 5;
 }
-#more-options a{
+
+#more-options a {
     text-decoration: none;
     color: black;
     font-family: 'Hind', sans-serif;
     padding: 0px 7px;
     width: 100px;
     display: block;
-}
-#more-options a:hover{
     box-sizing: border-box;
+}
+
+#more-options a:hover {
     background-color: grey;
     color: white;
+}
+
+/* Main body */
+
+/* Aside part */
+#course-menu {
+    height: 150vh;
+    width: 320px;
+    border-right: 1px solid rgb(0, 61, 121);
+    box-sizing: border-box;
+}
+
+#course-menu-list {
+    list-style: none;
+}
+
+#course-menu-list a {
+    color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-style: italic;
+    text-decoration: none;
+    display: block;
+    width: 320px;
+    text-align: center;
+    padding: 7px 0px;
+}
+#course-menu-list a:hover{
+    background-color:rgb(0, 61, 121) ;
+    color: white;
+}
+#join{
+    height: 130px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#join a{
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 61, 121);
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+#join a:hover{
+    opacity: 0.85;
+    transition: 0.2s;
 }
