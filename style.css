@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Bebas+Neue&family=Convergence&family=Hind:wght@500&family=Markazi+Text:wght@500&family=Readex+Pro:wght@300;400&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --nav-background-color: white;
+}
+
+/* Header */
+
+#top {
+    height: 6vh;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#details {
+    color: white;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    font-family: 'Hind', sans-serif;
+}
+#announcement {
+    margin-right: 7px;
+}
+#announcement-click a {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 10px;
+    padding: 1px 7px;
+}
+
+#announcement-click a:hover {
+    background-color: rgb(207, 0, 0);
+}
+
+#socio-icons {
+    width: 300px;
+    text-align: center;
+    height: 6vh;
+}
+
+.fa {
+    padding: 17px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 4px;
+}
+.fa-facebook {
+    color: white;
+}
+.fa-facebook:hover {
+    background: #3B5998;
+    transition: 0.1s;
+}
+
+.fa-twitter {
+    color: white;
+}
+.fa-twitter:hover {
+    background: #55ACEE;
+    transition: 0.1s;
+}
+
+.fa-linkedin {
+    color: white;
+}
+.fa-linkedin:hover {
+    background: #007bb5;
+    transition: 0.1s;
+}
+
+.fa-pinterest {
+    color: white;
+}
+.fa-pinterest:hover {
+    background: #cb2027;
+    transition: 0.1s;
+}
+/* Navbar */
+nav{
+    background-color: var(--nav-background-color);
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    /* border-top: 1px solid blue; */
+    border-bottom: 1px solid rgb(0,61,121);
+    position: sticky;
+    top: 0;
+}
+
+/* Left side of navbar */
+#left-navbar{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    justify-content: space-around;
+}
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+}
+#image img{
+    height: 6.5vh;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+}
+#searchBox{
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 29px;
+    padding: 0px 5px;
+}
+#search button{
+    height: 29px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,61,121);
+    color: white;
+    cursor: pointer;
+}
+#search button:hover{
+    opacity: 0.8;
+}
+
+/* Right side of navbar */
+#right-navbar{
+    width: 500px;
+}
+#list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 100px;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+
+}
+.navbar-menu:hover{
+    border-bottom: 3px solid rgb(253,185,19);
+    border-top: 3px solid var(--nav-background-color);
+}
+
+/* Mouseover dropdown */
+#course-list{
+    display: none;
+    position: absolute;
+    right: 250px;
+    top: 7vh;
+    width: 200px;
+    box-shadow: 2px 4px 10px grey;
+    list-style: none;
+}
+#course-list a{
+    display: block;
+    box-sizing: border-box;
+    width: 200px;
+    font-family: 'Hind', sans-serif;
+    text-decoration: none;
+    padding: 7px;
+    color: black;
+}
+#course-list a:hover{
+    background-color: grey;
+    color: white;
+}
+#more-options{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7vh;
+    width: 100px;
+    list-style: none;
+    box-shadow: 2px 4px 10px grey;
+}
+#more-options a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Hind', sans-serif;
+    padding: 0px 7px;
+    width: 100px;
+    display: block;
+}
+#more-options a:hover{
+    box-sizing: border-box;
+    background-color: grey;
+    color: white;
+}
