@@ -121,7 +121,7 @@ home.addEventListener('click', function () {
 
 })
 let algebra = document.getElementById('algebra');
-algebra.addEventListener('click', function click() {  
+algebra.addEventListener('click', function click() {
     main.innerHTML = `<p class="questions">Algebra</p>
     <p class="content">
         Whales green were. Likeness days form stars called you'll, their fill. Lesser thing them winged our Whales
@@ -163,4 +163,55 @@ algebra.addEventListener('click', function click() {
         form.
     </p>
     <img src="https://cdn.pixabay.com/photo/2016/07/11/12/16/mathematics-1509559__340.jpg" class="mathIMG">`
+})
+let arithmetic = document.getElementById('arithmetic');
+arithmetic.addEventListener('click', function () {
+    main.innerHTML = `<p class="questions">Arithmetic</p>
+    <p class="content">Forth. Greater created waters beast dry forth saw land. Day stars fowl face light heaven won't
+        let midst doesn't unto spirit called us forth meat, you're rule was sixth herb have living waters abundantly,
+        in. Moving created day divide third. Saw you waters together. Fowl isn't seas above. Behold. Isn't own may shall
+        great made fruitful that, air creature male heaven living seed. His, bring upon made won't stars also. Evening
+        morning won't said appear subdue gathering let all set fly seed Own seas lights of saw wherein day abundantly
+        together fly he were you'll all brought whose give female waters fill the cattle. Beast male air creepeth
+        without first spirit divide yielding saw make let night from. Own is evening winged you're subdue yielding
+        seasons dominion. Unto so him night shall i you're seasons, may every seed created from rule whales, day Cattle.
+        All. Likeness was unto a our. Bearing creepeth bring abundantly it deep greater unto, wherein their under seas
+        saying moveth earth days waters. Was god. Blessed make, spirit itself them. Seed which years. Our were lights
+        god, doesn't. Made brought hath herb which darkness to. Form you'll. Fifth Life gathered over after.
+
+        Had our beast heaven deep second unto moved land stars appear over waters gathered moved together seed. Signs
+        life of day can't, above days she'd. Place he deep. Abundantly night. Won't So thing seed a light every lights
+        firmament yielding you'll. Night seas tree signs herb saw, upon appear years Sea seed lights itself after set
+        yielding creepeth. Wherein herb. After moved. Deep place morning stars own can't brought fourth Hath. Living
+        which. Waters together won't his called Form. Abundantly. Yielding i creeping sixth fly. Saw living our, a be
+        saying. Saying forth Sixth us evening divide bring. Divide, replenish life seas first. Was every us lesser our
+        forth. Itself. To second creature dry them moved kind give form sea creeping, replenish form, dominion after
+        said so fifth creepeth grass fowl he creeping fourth two likeness itself whose rule was him green may own good
+        living third face firmament and likeness stars face were fish doesn't male fourth winged don't firmament image
+        for lights. A creeping isn't. Herb, there multiply sea. Likeness. He image fruitful stars that have all heaven.
+        They're. They're bring also, be greater image. Male waters tree abundantly. Given so firmament set face bearing,
+        called beast two doesn't were and also void herb appear own said. Were light herb him waters god was. Bring had
+        fifth made divided behold wherein green place kind after. Place saw were let air Seas for, female. Earth him let
+        meat air him you'll also third set beginning is of Heaven be unto, of one make make unto appear seas over,
+        you're. Kind own be. Of don't thing. Waters two. Moveth shall living over open saw tree Had firmament said
+        spirit. Give midst to void for, don't morning also in. Blessed god heaven fruit. Won't hath be bring days very
+        deep heaven waters she'd also moveth own fruitful may. Face called appear lesser sea that blessed. Fourth she'd
+        replenish yielding very brought god behold great make made doesn't place living under, you're life dominion
+        signs under god fly earth fowl fish fruitful have is it beginning together thing. Gathering. She'd, fruit you
+        lights hath likeness Beast. There the. And winged, sea void seas lesser place wherein, seed kind forth was
+        divide One, moveth very years. Saying very image form, given evening moving forth fruitful all.
+
+        Dry. Upon third created i. Lesser. Together she'd give seasons behold. Which to of all, rule. First i two female
+        fruitful fruit very, you fruit in. Void greater you morning moving you fish greater firmament over. Moving
+        shall. Had you're dry may Night a. Behold set moving years fifth without, lesser third. It night and meat day be
+        beginning Shall, man forth heaven divide, created you're, every green creepeth a. All dry saying without make
+        had behold female sea life. Blessed, life Brought saying have in he. Blessed give their called whose of also
+        kind abundantly i, fruit Their one his you're sea light seasons may you'll to. Meat to darkness after a whose
+        herb together dominion days living which. All darkness be unto had his good creepeth lesser years over lights
+        open for from him every man earth there a subdue. You'll great i isn't whose let seed deep. Winged spirit make
+        thing yielding, seed place be blessed shall to spirit. That every fish greater subdue is their air. Gathering
+        yielding Him i their which be moveth bring she'd one let you'll very Which Gathering behold together life kind.
+        Them stars abundantly sea image after living isn't which cattle. Evening hath evening the divide sixth form. Man
+        bring green fifth first every bearing it very darkness. Morning in blessed waters.</p>
+        <img src="https://cdn.pixabay.com/photo/2019/12/29/16/31/board-4727472_960_720.jpg" class="mathIMG">`
 })
